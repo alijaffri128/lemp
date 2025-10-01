@@ -53,7 +53,7 @@ services:
    build:
      context: ./.docker/phpmyadmin
      dockerfile: Dockerfile
-   #image: 867364546075.dkr.ecr.eu-north-1.amazonaws.com/tem4/sql
+   image: 867364546075.dkr.ecr.eu-north-1.amazonaws.com/tem4/sql
    environment:
      MYSQL_USERNAME: root
      MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
