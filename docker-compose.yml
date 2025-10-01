@@ -22,7 +22,7 @@ services:
     build:
       context: ./.docker/php
       dockerfile: Dockerfile
-    image: frehman/phpimages:999
+    image: alihussain1214/phpimages:999
     working_dir: /var/www/php
     volumes:
       - ./src:/var/www/php
